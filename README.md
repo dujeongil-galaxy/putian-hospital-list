@@ -21,7 +21,7 @@
 1. 下载安装「一个木函」（Android）
 2. 打开 → 工具箱 → 网页转应用
 3. 填入网址：`https://dujeongil-galaxy.github.io/putian-hospital-list/`
-4. 应用名称填「医院查询」，包名随意
+4. 应用名称和包名自定义即可
 5. 生成 APK 安装即可
 
 ## License
