@@ -14,7 +14,7 @@
 - 共收录 267 家医院
 - 仅供参考，是否仍为莆田系背景请以最新工商/卫健委登记为准
 
-## 做成手机 APP（网页套壳）
+## 如何做成手机APP
 
 本项目是纯静态网页，可用「一个木函」APP 一键套成 APK：
 
@@ -23,6 +23,12 @@
 3. 填入网址：`https://dujeongil-galaxy.github.io/putian-hospital-list/`
 4. 应用名称和包名自定义即可
 5. 生成 APK 安装即可
+
+## 相关项目
+
+- [双休购主站](https://github.com/dujeongil-galaxy/shuangxiugou)
+- [双休购使用指南](https://github.com/dujeongil-galaxy/shuangxiugou-guide)
+- [更多项目](https://github.com/dujeongil-galaxy)
 
 ## License
 
