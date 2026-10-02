@@ -6,7 +6,6 @@
 <title>莆田系医院查询 · 就医避雷</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-.star-btn { position: fixed; top: 16px; right: 16px; background: #1f2937; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-weight: bold; z-index: 9999; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f5f7; color: #1d1d1f; min-height: 100vh; }
 .container { max-width: 720px; margin: 0 auto; padding: 24px 16px 60px; }
 h1 { font-size: 24px; margin: 20px 0 6px; }
@@ -23,10 +22,10 @@ h1 { font-size: 24px; margin: 20px 0 6px; }
 .item .meta { font-size: 13px; color: #888; margin-top: 4px; }
 .warn { background: #fff3e0; border-left: 4px solid #ff6900; padding: 12px 14px; border-radius: 8px; font-size: 13px; line-height: 1.6; margin: 16px 0; }
 .empty { text-align: center; color: #999; padding: 40px 0; }
+.star-btn { position: fixed; top: 16px; right: 16px; background: #1f2937; color: white; padding: 8px 16px; border-radius: 8px; text-decoration: none; font-weight: bold; z-index: 9999; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 </style>
 </head>
 <body>
-<a href="https://github.com/dujeongil-galaxy/putian-hospital-list" target="_blank" class="star-btn">★ Star on GitHub</a>
 <div class="container">
 <h1>🏥 莆田系医院查询</h1>
 <div class="sub">共收录 <strong id="total">0</strong> 家 · 数据来自 open-power-workgroup/Hospital 开源社区<br>⚠️ 仅供就医参考，具体以官方登记为准</div>
@@ -66,5 +65,6 @@ function render() {
 q.addEventListener('input', render);
 render();
 </script>
+<a href="https://github.com/dujeongil-galaxy/putian-hospital-list" target="_blank" class="star-btn">★ Star on GitHub</a>
 </body>
 </html>
